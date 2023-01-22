@@ -11,7 +11,7 @@ def test_fill_form(open_browser):
     practice_form.select_state('NCR')
     practice_form.select_city('Delhi')
     practice_form.radio_select('Female')
-    practice_form.set_address('Астрахань1')
+    practice_form.set_address('Астрахань')
     practice_form.picture('files/img.png')
     practice_form.subjects('English')
     practice_form.birthday_date('9', '1995', '04')
