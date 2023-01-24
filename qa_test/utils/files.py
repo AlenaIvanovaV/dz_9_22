@@ -1,5 +1,7 @@
-from selene.support.shared import browser
 import os
+
+from selene.support.shared import browser
+
 import tests
 
 
