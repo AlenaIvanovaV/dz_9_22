@@ -1,5 +1,4 @@
 from selene.support.shared import browser
-
 from qa_test.models.data.studentform import*
 from qa_test.models.pages import practice_form
 
