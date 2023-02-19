@@ -1,7 +1,7 @@
 from selene import command
 from selene import have
 from selene.support.shared import browser
-from qa_test.models.data.studentform import *
+from qa_test.models.data.studentform import aivanova
 
 from qa_test.models import control
 from qa_test.models.control import dropdown, checkbox, datepicker, radiobutton, modal
@@ -16,26 +16,25 @@ def type_user(name, lastname, number, mail):
 
 
 def select_city(city):
-    dropdown.dropdown_select('#city', city.value[0])
+    dropdown.dropdown_select('#city', city)
 
 
 def select_state(state):
-    dropdown.dropdown_select('#state', state.value[0])
+    dropdown.dropdown_select('#state', state)
 
 
 def checkbox_select(hobby):
     browser.element('[for="hobbies-checkbox-2"]').perform(command.js.scroll_into_view)
-    for r in hobby:
-        checkbox.checkboxes_click(browser.all('[for^="hobbies-checkbox"]'), r.value[0])
+    checkbox.checkboxes_click(browser.all('[for^="hobbies-checkbox"]'), hobby)
 
 
 def radio_select(gender):
-    radiobutton.set_gender(browser.all('[for^=gender-radio]'), gender.value[0])
+    radiobutton.set_gender(browser.all('[for^=gender-radio]'), gender)
 
 
 def subjects(subject):
-    for r in subject:
-      browser.element('#subjectsInput').type(r.value[0]).press_enter()
+
+      browser.element('#subjectsInput').type(subject).press_enter()
 
 
 def picture(path_to_picture):
@@ -60,13 +59,13 @@ def submitted(data):
         rows.element_by(have.text(row)).all('td')[1].should(have.exact_text(value))
 
 
-def fill_data(form: Form):
-    type_user(form.last_name, form.first_name, form.number, form.email)
-    radio_select(form.gender)
-    checkbox_select(form.hobby)
-    select_state(form.state)
-    select_city(form.city)
-    birthday_date(form.birthday)
-    set_address(form.address)
-    picture(form.image)
-    subjects(form.subjects)
+def fill_data(a):
+    type_user(a.last_name, a.first_name, a.number, a.email)
+    radio_select(a.gender)
+    checkbox_select(a.hobby)
+    select_state(a.state)
+    select_city(a.city)
+    birthday_date(a.birthday)
+    set_address(a.address)
+    picture(a.image)
+    subjects(a.subjects)
