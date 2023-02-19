@@ -1,10 +1,11 @@
 {
+
   "base": {
     "logo": "",
-    "project": "some project",
+    "project": "${JOB_BASE_NAME}",
     "environment": "some env",
     "comment": "some comment",
-    "reportLink": "",
+    "reportLink": "${BUILD_URL}",
     "language": "en",
     "allureFolder": "allure-report/",
     "enableChart": true
