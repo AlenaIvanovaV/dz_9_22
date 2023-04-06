@@ -40,4 +40,4 @@
 ![This is an image](attachments/screenshots/allure.png)
 
 ##### Видео прохождение теста
-![This is an image](attachments/video/a350adc20a4b5d75b0ea3d173e221cc9.gif)
+![This is an image](attachments/video/0cf16075bf6fde5422f9073ac99a42b5.gif)
