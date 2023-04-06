@@ -27,7 +27,7 @@
 ### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
-![This is an image](attachments/screenshots/jenkins.png)
+![This is an image](attachments/screenshots/jenkins-logo.svg)
 
 <!-- Allure report -->
 
