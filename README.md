@@ -37,7 +37,7 @@
 ![This is an image](attachments/screenshots/allure.png)
 
 ##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
-![This is an image](attachments/screenshots/allure.png)
+![This is an image](attachments/screenshots/allure-report.png)
 
 ##### Видео прохождение теста
 ![This is an image](attachments/video/0cf16075bf6fde5422f9073ac99a42b5.gif)
