@@ -41,3 +41,11 @@
 
 ##### Видео прохождение теста
 ![This is an image](attachments/video/0cf16075bf6fde5422f9073ac99a42b5.gif)
+
+
+<!-- Telegram -->
+
+### <img width="3%" title="Telegram" src="resources/logo/Telegram.png"> Интеграция с Telegram
+##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах, а также ссылка на allure report.
+
+![This is an image](attachments/screenshots/tg_report.png)
