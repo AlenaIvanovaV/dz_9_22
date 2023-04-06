@@ -5,13 +5,14 @@
 ### Используемые технологии
 <p  align="center">
   <code><img width="5%" title="Pycharm" src="./attachments/logo/pycharm.svg"></code>
-  <code><img width="5%" title="Python" src="./attachments/logo/python.svg"></code>
+  <code><img width="5%" title="Python" src="./attachments/logo/Python-logo-notext.svg"></code>
   <code><img width="5%" title="Pytest" src="./attachments/logo/pytest.png"></code>
-  <code><img width="5%" title="Selene" src="./attachments/logo/selene.svg"></code>
-  <code><img width="5%" title="GitHub" src="./attachments/logo/github.png"></code>
-  <code><img width="5%" title="Allure Report" src="./attachments/logo/allure_report.png"></code>
+  <code><img width="5%" title="Selene" src="./attachments/logo/selene.png"></code>
+ <code><img width="5%" title="Selene" src="./attachments/logo/selenium.png"></code>
+  <code><img width="5%" title="GitHub" src="./attachments/logo/git-logo.svg"></code>
+  <code><img width="5%" title="Allure Report" src="./attachments/logo/allure-Report-logo.svg"></code>
   <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins1.svg"></code>
-  <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid.png"></code>
+  <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid-logo.svg"></code>
 </p>
 
 ### Что выполняет тест:
@@ -26,7 +27,7 @@
 ### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
-![This is an image](attachments/screenshots/jenkins1.png)
+![This is an image](attachments/screenshots/jenkins.png)
 
 <!-- Allure report -->
 
@@ -36,7 +37,7 @@
 ![This is an image](attachments/screenshots/allure.png)
 
 ##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
-![This is an image](attachments/screenshots/allure_suites.png)
+![This is an image](attachments/screenshots/allure.png)
 
 ##### Видео прохождение теста
-![This is an image](attachments/video/tests_ui.gif)
+![This is an image](attachments/video/a350adc20a4b5d75b0ea3d173e221cc9.mp4)
