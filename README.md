@@ -24,7 +24,7 @@
 
 ### <img width="3%" title="Jenkins" src="attachments/logo/jenkins-logo.svg"> Запуск проекта в Jenkins
 
-### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
+### [Job](https://jenkins.autotests.cloud/job/demoQA_UI/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
 ![This is an image](attachments/screenshots/jenkins.png)
