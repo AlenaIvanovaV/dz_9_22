@@ -11,7 +11,7 @@
  <code><img width="5%" title="Selene" src="./attachments/logo/selenium.png"></code>
   <code><img width="5%" title="GitHub" src="./attachments/logo/git-logo.svg"></code>
   <code><img width="5%" title="Allure Report" src="./attachments/logo/allure-Report-logo.svg"></code>
-  <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins1.svg"></code>
+  <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins1.png"></code>
   <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid-logo.svg"></code>
 </p>
 
@@ -45,7 +45,7 @@
 
 <!-- Telegram -->
 
-### <img width="3%" title="Telegram" src="resources/logo/Telegram.png"> Интеграция с Telegram
+### <img width="3%" title="Telegram" src="resources/logo/Telegram.svg"> Интеграция с Telegram
 ##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах, а также ссылка на allure report.
 
 ![This is an image](attachments/screenshots/tg_report.png)
