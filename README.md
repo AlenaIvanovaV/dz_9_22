@@ -11,7 +11,7 @@
  <code><img width="5%" title="Selene" src="./attachments/logo/selenium.png"></code>
   <code><img width="5%" title="GitHub" src="./attachments/logo/git-logo.svg"></code>
   <code><img width="5%" title="Allure Report" src="./attachments/logo/allure-Report-logo.svg"></code>
-  <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins1.png"></code>
+  <code><img width="5%" title="Jenkins" src="./attachments/logo/jenkins-logo.svg"></code>
   <code><img width="5%" title="Selenoid" src="./attachments/logo/selenoid-logo.svg"></code>
 </p>
 
@@ -27,7 +27,7 @@
 ### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
-![This is an image](attachments/screenshots/jenkins-logo.svg)
+![This is an image](attachments/screenshots/jenkins.png)
 
 <!-- Allure report -->
 
