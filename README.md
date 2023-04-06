@@ -22,7 +22,7 @@
 
 <!-- Jenkins -->
 
-### <img width="3%" title="Jenkins" src="attachments/logo/jenkins.png"> Запуск проекта в Jenkins
+### <img width="3%" title="Jenkins" src="attachments/logo/jenkins-logo.svg"> Запуск проекта в Jenkins
 
 ### [Job](https://jenkins.autotests.cloud/job/qa_quru_jenkins/)
 
@@ -31,7 +31,7 @@
 
 <!-- Allure report -->
 
-### <img width="3%" title="Allure Report" src="attachments/logo/allure_report.png"> Allure report
+### <img width="3%" title="Allure Report" src="attachments/logo/allure-Report-logo.svg"> Allure report
 
 ##### После прохождения тестов, результаты автоматически сохраняются. Чтобы посмотреть Allure отчет нужно нажать на иконке allure report у сборки.
 ![This is an image](attachments/screenshots/allure.png)
