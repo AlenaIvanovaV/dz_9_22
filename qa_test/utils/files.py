@@ -6,7 +6,6 @@ import tests
 
 
 def input_files(element, file):
-    browser.element(element).set_value(
-        os.path.abspath(os.path.join(os.path.dirname(tests.__file__), f'files/{file}'))
-    )
-
+  browser.element(element).set_value(
+    os.path.abspath(os.path.join(os.path.dirname(tests.__file__), f'files/{file}'))
+  )

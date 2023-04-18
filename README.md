@@ -3,6 +3,7 @@
 <!-- Технологии -->
 
 ### Используемые технологии
+
 <p  align="center">
   <code><img width="5%" title="Pycharm" src="./attachments/logo/pycharm.svg"></code>
   <code><img width="5%" title="Python" src="./attachments/logo/Python-logo-notext.svg"></code>
@@ -16,6 +17,7 @@
 </p>
 
 ### Что выполняет тест:
+
 - [x] Заполняет данные формы
 - [x] Отправляет заполненные данные
 - [x] Проверяет правильность заполненных данных
@@ -27,6 +29,7 @@
 ### [Job](https://jenkins.autotests.cloud/job/demoQA_UI/)
 
 ##### При нажатии на "Собрать сейчас" начнется сборка тестов и их прохождение, через виртуальную машину при помощи Selenoid.
+
 ![This is an image](attachments/screenshots/jenkins.png)
 
 <!-- Allure report -->
@@ -34,18 +37,22 @@
 ### <img width="3%" title="Allure Report" src="attachments/logo/allure-Report-logo.svg"> Allure report
 
 ##### После прохождения тестов, результаты автоматически сохраняются. Чтобы посмотреть Allure отчет нужно нажать на иконке allure report у сборки.
+
 ![This is an image](attachments/screenshots/allure.png)
 
 ##### Во вкладке Suites находятся подробные данные о прохождении теста с приложенными логами, скриншотами и видео о прохождении теста
+
 ![This is an image](attachments/screenshots/allure-report.png)
 
 ##### Видео прохождение теста
+
 ![This is an image](attachments/video/0cf16075bf6fde5422f9073ac99a42b5.gif)
 
 
 <!-- Telegram -->
 
 ### <img width="3%" title="Telegram" src="attachments/logo/Telegram.svg"> Интеграция с Telegram
+
 ##### После прохождения тестов, в Telegram bot приходит сообщение с графиком и небольшой информацией о тестах, а также ссылка на allure report.
 
 ![This is an image](attachments/screenshots/tg_report.png)
