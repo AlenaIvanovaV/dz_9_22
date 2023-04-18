@@ -1,7 +1,6 @@
 from selene import command
 from selene import have
 from selene.support.shared import browser
-
 from qa_test.models import control
 from qa_test.models.control import dropdown, checkbox, datepicker, radiobutton, modal
 from qa_test.utils import files
@@ -52,7 +51,7 @@ def birthday_date(birthday):
 
 
 def submitted(data):
-  rows = control.modal.dialog.all('tbody tr')
+  rows = browser.element('.modal-content').all('tbody tr')
   for row, value in data:
     rows.element_by(have.text(row)).all('td')[1].should(have.exact_text(value))
 
